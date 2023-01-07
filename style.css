@@ -1,0 +1,45 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 1345px;
+    background-color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.divCouleur{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+}
+.ligne1{
+    height: 65px;
+    width: 70px;
+}
+
+button{
+    padding: 20px 98px!important;
+    margin: 5px 0;
+    margin-left: 15px;
+}
+.ligneCouleur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.DivGrid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(54, 20px);
+    gap:1;
+    margin-left: 3px;
+    background-color: #ecf0f1;
+}
+
+.square{
+    border: 1px solid gray;
+    width: 19px;
+    height: 19px;
+}
